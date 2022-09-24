@@ -20,7 +20,7 @@ public class Worker implements Serializable {
 	
 	private String name;
 	
-	@Column(name = "daily_Income")
+	@Column(name = "daily_income")
 	private Double dailyIncome;
 	
 	public Worker() {
